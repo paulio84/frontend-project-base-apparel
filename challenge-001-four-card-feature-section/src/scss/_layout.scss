@@ -1,0 +1,15 @@
+.cards {
+  @media (min-width: $desktop) {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.card-column {
+  @media (min-width: $desktop) {
+    flex-basis: 33%;
+    flex-grow: 1;
+    padding: 0 15px;
+  }
+}

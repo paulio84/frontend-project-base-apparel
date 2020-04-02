@@ -1,0 +1,29 @@
+// primary colours
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
+// neutral colours
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+// other colours
+$white: #fff;
+$black: #000;
+
+// font
+$font-size-32: 3.2rem;
+$font-size-15: 1.5rem;
+$font-size-12: 1.2rem;
+// font-family and size imported into html file from Google Fonts
+$font-family: 'Poppins', sans-serif;
+
+$font-weight-200: 200;
+$font-weight-400: 400;
+$font-weight-600: 600;
+
+// media sizes
+$mobile: 375px;
+$desktop: 1440px;
