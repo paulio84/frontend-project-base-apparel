@@ -1,0 +1,47 @@
+.input-with-button {
+ 
+  position: relative;
+
+  input {
+    background: transparent;
+    border: 1px solid lighten($desaturated-red, 10%);
+    border-radius: 50px;
+    color: $dark-grayish-red;
+    font-family: $font-light;
+    font-weight: 600;
+    padding: 15px 0 15px 20px;
+    width: 100%;
+    
+    &::placeholder {
+      color: $desaturated-red;
+      font-weight: 400;
+    }
+    
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  button {
+    background: $red-grad;
+    border: none;
+    -webkit-box-shadow: 0px 20px 40px 0px rgba(206,151,151,0.6);
+    -moz-box-shadow: 0px 20px 40px 0px rgba(206,151,151,0.6);
+    box-shadow: 0px 20px 40px 0px rgba(206,151,151,0.6);
+    border-radius: 50px;
+    color: white;
+    height: 100%;
+    padding: 15px 25px;
+    position: absolute;
+    right: 0;
+
+    &:focus {
+      outline: none;
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+
+}
