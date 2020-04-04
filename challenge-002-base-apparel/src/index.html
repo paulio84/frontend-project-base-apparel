@@ -36,13 +36,15 @@
       Add your email below to stay up-to-date with announcements and our launch deals.
     </p>
 
-    <div>
-      <form id="email-address" onsubmit="submitForm(event)">
+    <form id="email-address" onsubmit="submitForm(event)">
+      <div class="input-with-button">
         <input type="text" name="email" placeholder="Email Address" />
-        <button type="submit">Submit</button>
-      </form>
+        <button type="submit">
+          <img src="assets/images/icon-arrow.svg" alt="Email address submit" />
+        </button>
+      </div>
       <p id="validation"></p>
-    </div>
+    </form>
   </main>
 
   <script src="js/index.js"></script>
