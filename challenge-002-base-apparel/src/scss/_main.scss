@@ -29,6 +29,13 @@ main {
   }
 
   form {
-    margin: 30px 0;
+    margin: 30px 0 0;
+
+    p.validation-error {
+      color: $soft-red;
+      display: block;
+      margin: 10px 22px 0;
+      text-align: left;
+    }
   }
 }

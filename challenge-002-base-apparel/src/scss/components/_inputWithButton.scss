@@ -1,6 +1,9 @@
 .input-with-button {
- 
   position: relative;
+
+  .validation-error {
+    border: 2px solid $soft-red;
+  }
 
   input {
     background: transparent;
@@ -19,7 +22,7 @@
     
     &:focus {
       outline: none;
-    }
+    }  
   }
   
   button {
@@ -39,9 +42,22 @@
       outline: none;
     }
 
-    img {
+    &:hover {
+      background: $red-active;
+    }
+
+    img.submit {
       height: 100%;
     }
   }
 
+  img.validation-error {
+    border: 0;
+    display: block;
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7%;
+  }
 }
