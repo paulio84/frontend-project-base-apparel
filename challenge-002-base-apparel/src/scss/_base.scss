@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $bg-grad;
+  color: $desaturated-red;
+  font-family: $font-light;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
