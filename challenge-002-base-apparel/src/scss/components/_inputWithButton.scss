@@ -49,15 +49,29 @@
     img.submit {
       height: 100%;
     }
+
+    @media (min-width: $desktop) {
+      padding: 15px 40px;
+    }
   }
 
   img.validation-error {
     border: 0;
     display: block;
+    height: 40%;
     position: absolute;
     right: 70px;
     top: 50%;
     transform: translateY(-50%);
     width: 7%;
+    
+    @media (min-width: $desktop) {
+      right: 100px;
+      width: 5%;
+    }
+  }
+  
+  @media (min-width: $desktop) {
+    width: 53%;
   }
 }

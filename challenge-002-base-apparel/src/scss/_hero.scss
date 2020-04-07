@@ -1,0 +1,8 @@
+.hero {
+  @media (min-width: $desktop) {
+    flex-grow: 1;
+    height: 50%;
+    order: 1;
+    width: 45%;
+  }
+}

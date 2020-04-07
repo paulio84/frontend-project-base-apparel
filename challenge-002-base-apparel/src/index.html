@@ -14,37 +14,39 @@
 </head>
 
 <body>
-  <header>
-    <img src="assets/images/logo.svg" alt="Base Apparel" />
-  </header>
+  <div class="container">
+    <header>
+      <img src="assets/images/logo.svg" alt="Base Apparel" />
+    </header>
 
-  <section id="hero">
-    <picture>
-      <source srcset="assets/images/hero-desktop.jpg" media="(min-width: 1440px)">
-      <img srcset="assets/images/hero-mobile.jpg" alt="Base Apparel">
-    </picture>
-  </section>
+    <section id="hero" class="hero">
+      <picture>
+        <source srcset="assets/images/hero-desktop.jpg" media="(min-width: 1440px)">
+        <img srcset="assets/images/hero-mobile.jpg" alt="Base Apparel">
+      </picture>
+    </section>
 
-  <main>
-    <h1>
-      <span>We're</span>
-      <span>coming</span>
-      <span>soon</span>
-    </h1>
-    <p>
-      Hello fellow shoppers! We're currently building our new fashion store.
-      Add your email below to stay up-to-date with announcements and our launch deals.
-    </p>
+    <main>
+      <h1>
+        <span>We're</span>
+        <span>coming</span>
+        <span>soon</span>
+      </h1>
+      <p>
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
 
-    <form id="email-address-form" onsubmit="submitForm(event)">
-      <div id="email-address-input" class="input-with-button">
-        <input id="email-address-control" type="text" name="email" placeholder="Email Address" />
-        <button type="submit">
-          <img class="submit" src="assets/images/icon-arrow.svg" alt="Email address submit" />
-        </button>
-      </div>
-    </form>
-  </main>
+      <form id="email-address-form" onsubmit="submitForm(event)">
+        <div id="email-address-input" class="input-with-button">
+          <input id="email-address-control" type="text" name="email" placeholder="Email Address" />
+          <button type="submit">
+            <img class="submit" src="assets/images/icon-arrow.svg" alt="Email address submit" />
+          </button>
+        </div>
+      </form>
+    </main>
+  </div>
 
   <script src="js/index.js"></script>
 </body>
