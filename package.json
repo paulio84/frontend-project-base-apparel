@@ -6,6 +6,7 @@
   "keywords": [],
   "author": "Paul Terry",
   "license": "ISC",
+  "repository": "https://github.com/paulio84/frontend-project-base-apparel",
   "scripts": {
     "clean": "rm -rf dist/",
     "copyfiles": "npm run clean && mkdir dist && cp src/assets/images/icon-error.svg dist/icon-error.svg",
